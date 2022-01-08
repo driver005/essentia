@@ -274,11 +274,7 @@ QT_FLAGS="
 
 TENSORFLOW_FLAGS="
     --config=opt
-    --config=monolithic
     --config=v2
-    --config=noaws
-    --config=nohdfs
-    --config=nonccl
 "
 
 # The only known alternative to the interactive TensorFlow configuration is
